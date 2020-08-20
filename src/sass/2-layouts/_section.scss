@@ -1,0 +1,13 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, minmax(50px, 500px)) 1fr;
+  gap: 3.6rem;
+  padding: 1.8rem 0;
+}
+.left {
+  grid-column: 2/3;
+}
+.right {
+  grid-column: 3/4;
+  color: white;
+}

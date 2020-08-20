@@ -1,0 +1,52 @@
+.pop-up {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: $black;
+  display: none;
+  place-items: center;
+  .pop-up-wrapper {
+    opacity: 1;
+    width: 75%;
+    max-width: 460px;
+    background-color: $gray;
+    padding: 0.8rem;
+    position: relative;
+    .close-pop-up {
+      text-align: right;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      button {
+        color: $white;
+        background-color: inherit;
+        font-size: 1.2rem;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+        &:focus {
+          outline: none;
+          border: 1px solid $black;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      text-align: center;
+      font-weight: 100;
+      color: $teal;
+    }
+
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      color: white;
+      margin: 2rem 0;
+    }
+  }
+}
