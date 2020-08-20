@@ -1,0 +1,97 @@
+.Media {
+  .right .top {
+    height: 320px;
+    background-color: $gray;
+
+    .imagery-wrapper {
+      h1 {
+        text-align: center;
+        font-family: $primary-font;
+        font-size: 2em;
+        font-weight: 300;
+        padding-top: 0.5rem;
+        margin-bottom: 10px;
+        color: $gray-text;
+      }
+      .check-list {
+        max-width: 75%;
+        margin: 0 auto;
+        li {
+          padding: 2px 18px;
+          font-size: 1.15rem;
+          text-align: left;
+        }
+      }
+      h2 {
+        font-family: $primary-font;
+        margin-top: 0.5rem;
+        color: $gray-text;
+        font-size: 1.3em;
+        font-weight: 100;
+        padding: 0 auto;
+        text-align: center;
+      }
+      .resources {
+        display: flex;
+        margin: 5px auto;
+        justify-content: center;
+        width: 75%;
+        ul {
+          width: 45%;
+          margin-left: 5%;
+          li {
+            color: $gray-text;
+            text-align: left;
+            font-size: 1.05rem;
+
+            &:hover {
+              color: $teal;
+            }
+          }
+        }
+      }
+    }
+  }
+  .right .bottom {
+    height: 280px;
+    background: $white;
+    padding: 3% 0;
+    h1 {
+      font-family: $primary-font;
+      color: $dark-gray;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .icon-showcase {
+      display: grid;
+      grid-template-columns: repeat(5, auto);
+      place-items: center;
+      width: 78%;
+      margin: 0 auto;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      height: 85%;
+      &::-webkit-scrollbar-thumb {
+        background: $dark-gray;
+      }
+      scrollbar-width: 4px;
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+    }
+    ion-icon {
+      font-size: 2.2rem;
+      padding: 1rem;
+      color: black;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      &:hover {
+        box-shadow: 0 2px 4px black;
+      }
+    }
+  }
+}
