@@ -1,0 +1,43 @@
+.left {
+  display: flex;
+  text-align: center;
+  font-family: $primary-font;
+
+  .principles {
+    margin: 0 auto;
+    h2 {
+      font-size: 4em;
+      font-weight: 400;
+      color: $teal;
+      margin: 1.1em auto;
+    }
+
+    h3 {
+      font-size: 1.35rem;
+      line-height: 1;
+      font-weight: 100;
+      margin-bottom: 5px;
+      color: $white;
+    }
+
+    p {
+      margin: 2rem auto 0 auto;
+      max-width: 480px;
+      font-size: 1.2rem;
+      color: $gray-text;
+    }
+
+    ul {
+      margin: 2rem auto 0 auto;
+      max-width: 480px;
+
+      li {
+        margin: 0.5rem 0;
+        font-size: 1.1rem;
+        text-align: left;
+        color: $white-text;
+        font-family: $secondary-font;
+      }
+    }
+  }
+}
