@@ -1,0 +1,15 @@
+.btn-primary {
+  background-color: lighten($color: $teal, $amount: 10);
+  color: $black;
+  padding: 6px 3.5rem;
+  font-size: 120%;
+  border: none;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: $white-text;
+    background-color: darken($teal, $amount: 10);
+  }
+}

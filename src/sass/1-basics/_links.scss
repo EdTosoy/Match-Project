@@ -1,0 +1,6 @@
+.link {
+  color: $teal;
+  &:hover {
+    color: lighten($color: $teal, $amount: 10);
+  }
+}
