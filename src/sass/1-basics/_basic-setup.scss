@@ -1,0 +1,55 @@
+html {
+  background: $black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  list-style: none;
+  text-decoration: none;
+  transition: 0.2s;
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+}
+p {
+  line-height: 1.3;
+}
+a {
+  color: inherit;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+input,
+textarea {
+  &:focus {
+    outline: none;
+  }
+}
+
+li {
+  cursor: pointer;
+}
+.rule {
+  font-size: 1.1rem;
+  font-family: $secondary-font;
+}
+.checked {
+  text-decoration: line-through;
+  color: $dark-gray !important;
+  font-style: italic;
+}
+
+[data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
