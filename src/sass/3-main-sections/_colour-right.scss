@@ -1,0 +1,96 @@
+.Colour {
+  .right .top {
+    height: 340px;
+    background-image: url(/img/1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .right .bottom {
+    height: 260px;
+    background: $black;
+
+    .showcase {
+      overflow: hidden;
+      .color-pallete {
+        background-color: $gray;
+        height: 1.8rem;
+        border-bottom: 5px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+          width: 33.3%;
+          text-align: center;
+          color: black;
+          font-family: $secondary-font;
+        }
+        .first-color {
+          background-color: #FD9047;
+        }
+        .second-color {
+          background-color: #AC5142;
+        }
+        .third-color {
+          background-color: #4D3532;
+        }
+      }
+      .image-showcase {
+        width: 500%;
+        display: flex;
+        transition: 0.2s;
+        .slide{
+          height: 200px;
+          width: 20%;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+      li {
+        background-color: black;
+        overflow: hidden;
+
+        img {
+          opacity: 0.2;
+          transform: scale(1.3, 1.3);
+
+          &:hover {
+            opacity: 1;
+            transform: scale(1, 1);
+            transition: 0.4s;
+            transform: scale(1.15, 1.15);
+          }
+        }
+      }
+      .page-nav {
+        ul {
+          display: flex;
+        }
+        li {
+          height: 1.8rem;
+          width: 33.3%;
+          text-align: center;
+          color: black;
+          font-family: $secondary-font;
+          color: white;
+          padding: 5px;
+          &:nth-child(2) {
+            padding: 0;
+          }
+          &:hover {
+            background-color: $dark-gray;
+          }
+
+          input {
+            text-align: center;
+            padding: 5px;
+            margin-left: -15px;
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
