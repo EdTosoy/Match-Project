@@ -5,7 +5,7 @@
 <p align="center">
   The Check-list for creating great UI and UX design to make your design beautiful and easy to use.
   That helps other developers to be guided about the fundamentals of good looking design, it is
-  build with HTML5, SCSS(CSS), JavaScript, Parcel as bundler, and Scroll Out for  scroll animations.
+  build with HTML5, SCSS(CSS), JavaScript, Firebase, Parcel as bundler, and Scroll Out for  scroll animations.
 </p>
 
 ![demo](https://raw.githubusercontent.com/EdTosoy/Match-Project/master/src/img/Demo.png)
@@ -15,6 +15,7 @@
 - HTML
 - SCSS
 - JavaScript
+- Firebase
 - Parcel
 - Scroll Out
 
@@ -67,5 +68,9 @@
 - Parcel (for Bundler)
 - Sass (for Styling)
 - Scroll out (for Animation)
+- Firebase (for hosting)
 
 ## Screen Shots
+
+![screenshots](https://raw.githubusercontent.com/EdTosoy/Match-Project/master/src/img/ScreenShot1.png)
+![screenshots](https://raw.githubusercontent.com/EdTosoy/Match-Project/master/src/img/ScreenShot2.png)
