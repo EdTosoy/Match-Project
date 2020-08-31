@@ -8,7 +8,7 @@
   build with HTML5, SCSS(CSS), JavaScript, Firebase, Parcel as bundler, and Scroll Out for  scroll animations.
 </p>
 
-![demo](https://raw.githubusercontent.com/EdTosoy/Match-Project/master/src/img/Demo.png)
+![demo](https://github.com/EdTosoy/Match-Project/blob/master/Demo.png?raw=true)
 
 ## Built With
 
@@ -71,6 +71,5 @@
 - Firebase (for hosting)
 
 ## Screen Shots
-
-![screenshots](https://raw.githubusercontent.com/EdTosoy/Match-Project/master/src/img/ScreenShot1.png)
-![screenshots](https://raw.githubusercontent.com/EdTosoy/Match-Project/master/src/img/ScreenShot2.png)
+![demo](https://github.com/EdTosoy/Match-Project/blob/master/ScreenShot1.png?raw=true)
+![demo](https://github.com/EdTosoy/Match-Project/blob/master/ScreenShot2.png?raw=true)
